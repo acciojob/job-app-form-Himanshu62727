@@ -13,11 +13,17 @@
 	<input type = "text" id = name required><br><br>
 	<label for = email>Email:-</label>
 	<input type = "email" id = email required><br><br>
-	Gender:-&nbsp&nbsp
-	<label for = male>Male
-	<input type = "radio" value = male>
-	<label for = female>Female
-	<input type = "radio" value = female><br><br>
+	<fieldset>
+            <legend>Gender:</legend>
+            <label for="male">
+                <input type="radio" id="male" name="gender" value="male" required>
+                Male
+            </label>
+            <label for="female">
+                <input type="radio" id="female" name="gender" value="female" required>
+                Female
+            </label>
+        </fieldset>
 	<label for = laptop>Laptop Brands:-</label>
 	<select id = laptop><br><br>
 		<option>Dropdown</option>
